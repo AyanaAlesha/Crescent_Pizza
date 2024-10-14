@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Crescent Pizza </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body> 
+		<header> Crescent Pizza </header>
+		<table> 
+			<h3> Order Menu</h3>
+			
+			<tr>
+				<th colspan="2"> Speciality Pizzas </th>
+				<th> Price </th>
+				<th> select </th>
+				<th> Quantity </th>
+			</tr>
+			<tr>
+				<td colspan="2"> Pepperoni </td>
+				<td> $12.00 </td>
+				<td> <input class="check"type="checkbox"/> </td>
+				<td> <input class="quantity" type="number"/> </td> 
+			</tr>
+			<tr>
+				<td colspan="2"> Meat Lovers </td>
+				<td> $15.00 </td>
+				<td> <input class="check" type="checkbox"/> </td>
+				<td> <input class="quantity" type="number"/> </td> 
+			</tr>
+			<tr>
+				<td colspan="2"> Cheese </td>
+				<td> $12.00 </td>
+				<td> <input class="check"type="checkbox"/> </td>
+				<td> <input class="quantity" type="number"/> </td> 
+			</tr>
+			<tr>
+				<td colspan="2"> Supreme </td>
+				<td> $18.00 </td>
+				<td> <input class="check" type="checkbox"/> </td>
+				<td> <input class="quantity" type="number"/> </td> 
+			</tr>
+			
+			
+		</table>
+		<button id="submitBtn" onclick="calcOrder()"> Place Order </button>
+		<p id = "results"></p>
+	<script src="script.js"></script>
+	</body>
+</html>
